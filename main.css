@@ -1,0 +1,52 @@
+:root {
+    --cream: #FFFEF2;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
+h1 {
+    font-family: cursive;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: 'Bradley Hand';
+}
+
+li {
+    list-style: circle;
+}
+  
+.list {
+    list-style: square;
+}
+
+.light-theme {
+    --bg: var(--cream);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--cream);
+}
+  
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--cream);
+    --btnBg: var(--cream);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    right: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
